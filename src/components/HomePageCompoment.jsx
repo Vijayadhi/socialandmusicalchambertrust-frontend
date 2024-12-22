@@ -125,6 +125,9 @@ function HomePageCompoment() {
                                                     Join our world record program as a Guru and make yourself as aspiring teacher.
                                                     Register now to become a part of an inspiring community dedicated to growth and excellence make.
                                                 </p>
+                                                <br/>
+                                                <button className='btn btn-info btn-warning'>Click Here</button>
+
                                             </div>
 
                                         </a>
@@ -147,6 +150,8 @@ function HomePageCompoment() {
                                                     Join us in this prestigious world record event, celebrating the timeless verses of
                                                     Mahakavi Bharathiyar through music and unity. Be a part of history and make your contribution count.
                                                 </p>
+                                                <br/>
+                                                <button className='btn btn-info btn-warning'>Click Here</button>
                                             </div>
 
                                         </a>
@@ -168,7 +173,8 @@ function HomePageCompoment() {
                                                     Access your personalized dashboard to participate, contribute, and stay updated
                                                     on our world record event. Together, let’s make history with Mahakavi Bharathiyar's timeless verses.
                                                 </p>
-                                            </div>
+                                                <br/>
+                                                <button className='btn btn-info btn-warning'>Click Here</button>                                            </div>
                                         </a>
                                     </div>
 

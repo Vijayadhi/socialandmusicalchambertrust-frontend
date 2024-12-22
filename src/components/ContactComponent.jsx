@@ -21,7 +21,7 @@ function ContactComponent() {
                                     </div>
 
                                     {/* Contact Details Section */}
-                                    <div className="col-lg-7">
+                                    <div className="col-lg-8">
                                         <section className="pricing py-5">
                                             <div className="container">
                                                 <div className="row">
@@ -75,7 +75,7 @@ function ContactComponent() {
                                     </div>
 
                                     {/* Right Side Image Section */}
-                                    <div className="col-lg-5 d-flex align-items-center">
+                                    <div className="col-lg-4 d-flex align-items-center">
                                         <img
                                             src={rightImage}
                                             alt="Right Banner"

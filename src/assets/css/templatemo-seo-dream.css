@@ -892,7 +892,7 @@ Banner Style
 
 .main-banner .left-content h4 {
   z-index: 2;
-  position: relative;
+  /* position: relative; */
   font-weight: 700;
   font-size: 20px;
   color: #2a2a2a;
