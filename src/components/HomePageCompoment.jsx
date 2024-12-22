@@ -40,7 +40,7 @@ function HomePageCompoment() {
                                         <div className="row">
                                             <section className="countdown">
                                                 <div className="timer">
-                                                    <h3>The History Awaits In</h3>
+                                                    <h3>உலக சாதனை <br />பரதத்தில் பாரதியும் பாரதமும்</h3>
                                                     <div className="counter">
                                                         <div className="counter__box black-white">
                                                             <p className="counter__time" id="days"></p>
@@ -65,7 +65,7 @@ function HomePageCompoment() {
                                                 </div>
                                             </section>
                                             <div className="col-lg-12">
-                                                <h2>Kalam's World Record</h2>
+                                                <h2>World Record Programme Puducherry - 2025</h2>
                                             </div>
                                             <div className="col-lg-12">
                                                 <div className="main-green-button scroll-to-section">
@@ -81,7 +81,7 @@ function HomePageCompoment() {
                                         <video
                                             width="100%" // Adjust width as needed
                                             autoPlay // This will make the video play automatically on load
-                                            muted // Optional: If you want the video to be muted on load, add muted
+                                            // muted // Optional: If you want the video to be muted on load, add muted
                                             loop // Optional: If you want the video to loop, you can add this
                                             controls
                                             style={{ borderRadius: '25px' }}
@@ -114,7 +114,6 @@ function HomePageCompoment() {
                                                 className="features-item second-feature wow fadeInUp"
                                                 data-wow-duration="1s"
                                                 data-wow-delay="0.2s"
-                                            // onClick={handleGuruRegistration} // Corrected here to just pass the function reference
                                             >
                                                 <div className="second-number number">
                                                     <h6>01</h6>
@@ -122,8 +121,12 @@ function HomePageCompoment() {
                                                 <div className="icon"></div>
                                                 <h4>Guru Registration</h4>
                                                 <div className="line-dec"></div>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod.</p>
+                                                <p>
+                                                    Join our world record program as a Guru and make yourself as aspiring teacher.
+                                                    Register now to become a part of an inspiring community dedicated to growth and excellence make.
+                                                </p>
                                             </div>
+
                                         </a>
                                     </div>
                                     <div className="col-lg-3">
@@ -133,7 +136,6 @@ function HomePageCompoment() {
                                                 className="features-item first-feature wow fadeInUp"
                                                 data-wow-duration="1s"
                                                 data-wow-delay="0.4s"
-
                                             >
                                                 <div className="third-number number">
                                                     <h6>02</h6>
@@ -141,17 +143,20 @@ function HomePageCompoment() {
                                                 <div className="icon"></div>
                                                 <h4>Student Registration</h4>
                                                 <div className="line-dec"></div>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod.</p>
+                                                <p>
+                                                    Join us in this prestigious world record event, celebrating the timeless verses of
+                                                    Mahakavi Bharathiyar through music and unity. Be a part of history and make your contribution count.
+                                                </p>
                                             </div>
+
                                         </a>
                                     </div>
                                     <div className="col-lg-3">
-                                        <a href={navigate_url} target='_blank'>
+                                        <a href={navigate_url} target="_blank">
                                             <div
                                                 className="features-item second-feature last-features-item wow fadeInUp"
                                                 data-wow-duration="1s"
                                                 data-wow-delay="0.6s"
-                                            // Corrected here to just pass the function reference
                                             >
                                                 <div className="fourth-number number">
                                                     <h6>03</h6>
@@ -159,10 +164,14 @@ function HomePageCompoment() {
                                                 <div className="icon"></div>
                                                 <h4>Common Login</h4>
                                                 <div className="line-dec"></div>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod.</p>
+                                                <p>
+                                                    Access your personalized dashboard to participate, contribute, and stay updated
+                                                    on our world record event. Together, let’s make history with Mahakavi Bharathiyar's timeless verses.
+                                                </p>
                                             </div>
                                         </a>
                                     </div>
+
                                 </div>
                             </div>
                         </div>

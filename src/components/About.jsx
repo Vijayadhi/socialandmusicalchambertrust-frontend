@@ -41,22 +41,22 @@ function About() {
                                 <h2>உலக    <em>சாதனை</em> பரதத்தில் பாரதியும் <span>பாரதமும்</span></h2>
                             </div>
                             <div className="row">
-                                <div className="col-lg-4 col-sm-4">
+                                {/* <div className="col-lg-4 col-sm-4">
                                     <div className="about-item">
                                         <h4>
                                             {startCounting && <CountUp end={750} duration={10} suffix="+" />}
                                         </h4>
                                         <h6>Students Registered</h6>
                                     </div>
-                                </div>
-                                <div className="col-lg-4 col-sm-4">
+                                </div> */}
+                                {/* <div className="col-lg-4 col-sm-4">
                                     <div className="about-item">
                                         <h4>
                                             {startCounting && <CountUp end={340} duration={10} suffix="+" />}
                                         </h4>
                                         <h6>Gurus Registered</h6>
                                     </div>
-                                </div>
+                                </div> */}
                                 {/* <div className="col-lg-4 col-sm-4">
                                     <div className="about-item">
                                         <h4>
@@ -66,7 +66,13 @@ function About() {
                                     </div>
                                 </div> */}
                             </div>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor vel nisi a vero est ipsum perspiciatis officia totam reiciendis eligendi deleniti quibusdam, mollitia corporis deserunt temporibus magni voluptatum enim ut.</p>
+                            <p>Organized by the Social and Musical Chambers Trust, Cuddalore, in collaboration with the Lions Club of Cosmopolitan and International Lions Club Members, this event aims to raise awareness about the Swachh Bharat Mission and promote a plastic-free, clean environment.
+
+                                Featuring world-record songs inspired by the timeless lyrics of Mahakavi Bharathiyar, brought to life by talented musicians and our dedicated team, this event promises to be an inspiring experience.
+
+                                We warmly welcome your presence and support to make this initiative a grand success!
+
+                                For Enquiries: Contact our Organizing Team.</p>
                             <div className="main-green-button"><a href="#registerhere">Register Now</a></div>
                         </div>
                     </div>

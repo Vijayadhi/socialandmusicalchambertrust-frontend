@@ -14,7 +14,6 @@ function RegistrationComponent() {
                     <div className="col-lg-6 offset-lg-3">
                       <div className="section-heading">
                         <h2>Student Registration</h2>
-                        {/* <h2>Not Student? <span>Get</span> <a href=''>Guru <em>Registration</em> Here</a></h2> */}
                       </div>
                     </div>
                     <div className="col-lg-9">

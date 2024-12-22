@@ -14,12 +14,13 @@ function HeaderComponent() {
                             <nav className="main-nav">
                                 {/* <!-- ***** Logo Start ***** --> */}
                                 <a href="index.html" className="logo">
-                                    <h4>Kalam's World Record <img src={logo} alt="" /></h4>
+                                    <h4>World Record Programme<img src={logo} alt="" /><span style={{fontSize:15+'px'}}>Puducherry-2025</span></h4>
+                                    <p></p>
                                 </a>
                                 {/* <!-- ***** Logo End ***** --> */}
                                 {/* <!-- ***** Menu Start ***** --> */}
                                 <ul className="nav">
-                                    <li className="scroll-to-section"><a href="/" className="active">Home</a></li>
+                                    <li className="scroll-to-section"><a href="#top" className="active">Home</a></li>
                                     <li className="scroll-to-section"><a href="#registerhere">Register</a></li>
                                     <li className="scroll-to-section"><a href="#about">About</a></li>
                                     {/* <li className="scroll-to-section"><a href="#services">Services</a></li> */}

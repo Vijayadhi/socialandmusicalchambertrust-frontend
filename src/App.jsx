@@ -14,8 +14,8 @@ function App() {
 
       <Routes>
         <Route path="/" element={<HomePageCompoment />} />
-        <Route path="/studentRegistration" element={<StudentRegistrationComponent />} />
-        <Route path="/guruRegistration" element={<GuruRegistrationComponent />} />
+        {/* <Route path="/studentRegistration" element={<StudentRegistrationComponent />} />
+        <Route path="/guruRegistration" element={<GuruRegistrationComponent />} /> */}
 
       </Routes>
       <FooterComponent />
