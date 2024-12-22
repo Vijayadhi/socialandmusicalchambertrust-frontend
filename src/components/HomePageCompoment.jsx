@@ -130,7 +130,7 @@ function HomePageCompoment() {
                                         </a>
                                     </div>
                                     <div className="col-lg-3">
-                                        <a href={guruRegistrationUrl} target='_blank'>
+                                        <a href={StudentRegistrationUrl} target='_blank'>
 
                                             <div
                                                 className="features-item first-feature wow fadeInUp"
