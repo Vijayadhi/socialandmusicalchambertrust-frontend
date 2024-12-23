@@ -10,7 +10,7 @@ import imageLeftRegister from "../assets/images/image-left-register.jpeg";
 import { useNavigate } from 'react-router-dom';
 
 function HomePageCompoment() {
-    const navigate_url = `${import.meta.env.VITE_BACKEND_API}/backend/groupRegistration`
+    const navigate_url = `${import.meta.env.VITE_BACKEND_REGISTRATION_URL}/backend/groupRegistration`
     const guruRegistrationUrl = `${import.meta.env.VITE_BACKEND_REGISTRATION_URL}/backend/registerGuru`
     const StudentRegistrationUrl = `${import.meta.env.VITE_BACKEND_REGISTRATION_URL}/backend/studentRegistration`
 
@@ -167,10 +167,10 @@ function HomePageCompoment() {
                                                     <h6>03</h6>
                                                 </div>
                                                 <div className="icon"></div>
-                                                <h4>Common Login</h4>
+                                                <h4>Bulk Registration</h4>
                                                 <div className="line-dec"></div>
                                                 <p>
-                                                    Access your personalized dashboard to participate, contribute, and stay updated
+                                                    Registered Guru's can add thier students in bulk. This will help to save time and increase the efficiency of the system
                                                     on our world record event. Together, let’s make history with Mahakavi Bharathiyar's timeless verses.
                                                 </p>
                                                 <br/>
