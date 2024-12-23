@@ -10,7 +10,7 @@ import imageLeftRegister from "../assets/images/image-left-register.jpeg";
 import { useNavigate } from 'react-router-dom';
 
 function HomePageCompoment() {
-    const navigate_url = `${import.meta.env.VITE_BACKEND_API}`
+    const navigate_url = `${import.meta.env.VITE_BACKEND_API}/backend/groupRegistration`
     const guruRegistrationUrl = `${import.meta.env.VITE_BACKEND_REGISTRATION_URL}/backend/registerGuru`
     const StudentRegistrationUrl = `${import.meta.env.VITE_BACKEND_REGISTRATION_URL}/backend/studentRegistration`
 
